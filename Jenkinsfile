@@ -11,7 +11,7 @@ pipeline {
     stage ('Build') {
       steps {
         withDockerRegistry(credentialsId: 'DockerHub', url: 'https://index.docker.io/v1/') {
-          bat 'docker build -t 22127025/mmtnc-proj3 .'
+          sh 'docker build -t 22127025/mmtnc-proj3 .'
         }
       }
     }
