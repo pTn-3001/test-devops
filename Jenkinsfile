@@ -11,8 +11,8 @@ pipeline {
     stage ('Build and publish Docker image') {
       steps {
         withDockerRegistry(credentialsId: 'DockerHub', url: 'https://index.docker.io/v1/') {
-          bat 'docker build -t 22127025/mmtnc-proj3 .'
-          bat 'docker push 22127025/mmtnc-proj3'
+          //bat 'docker build -t 22127025/mmtnc-proj3 .'
+          bat 'docker push 22127025/mmtnc-proj3:latest'
         }
       }
     }
