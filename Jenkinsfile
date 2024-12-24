@@ -8,5 +8,12 @@ pipeline {
         url: 'https://github.com/pTn-3001/test-devops.git'
       }
     }
+    stage ('Build') {
+      steps {
+        withDockerRegistry(credentialsId: 'DockerHub', url: 'https://indexs.docker.io/v1/') {
+          bat 'docker build -t 22127025/mmtnc-proj3 .'
+        }
+      }
+    }
   }
 }
