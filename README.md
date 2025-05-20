@@ -10,8 +10,7 @@ terminal](https://drive.google.com/uc?export=view&id=1LofxNbe95GmEJGT89BTlmQrq_4
 
 # Directory Setup
 
-![Một số dòng lệnh làm việc với thư mục](img/task2.png){#fig:enter-label
-width="0.75\\linewidth"}
+![Một số dòng lệnh làm việc với thư mục](https://drive.google.com/uc?export=view&id=1uljujVaCJn0-Z1ZWvdG2oMm7OU8bg4it)
 
 -   `mkdir project_logs`: Tạo mới thư mục **project_logs**.
 
@@ -29,34 +28,30 @@ width="0.75\\linewidth"}
 
 # Log Review
 
-![In ra 10 dòng cuối của file log](img/task3_1.png){#fig:enter-label
-width="0.75\\linewidth"}
+![In ra 10 dòng cuối của file log](https://drive.google.com/uc?export=view&id=1QkwsfwS9JyVQmObPsTmErkO9FAYrpb9S)
 
 -   `tail -10 /var/log/syslog`: In ra 10 dòng cuối của file
     **/var/log/syslog**, trong đó -10 biểu thị số dòng muốn in,
     /var/log/syslog là file mong muốn.
 
-![In ra 5 dòng đầu của file log](img/task3_2.png){#fig:enter-label
-width="0.75\\linewidth"}
+![In ra 5 dòng đầu của file log](https://drive.google.com/uc?export=view&id=1bB71alVJrqZpKQ_NuDXoypz7TZJFWYSn)
 
 -   `head -5 /var/log/syslog`: In ra 5 dòng đầu của file
     **/var/log/syslog**, trong đó -5 biểu thị số dòng muốn in,
     /var/log/syslog là file mong muốn.
 
-![Đảo ngược nội dung file log](img/task3_3.png){#fig:enter-label
-width="0.75\\linewidth"}
+![Đảo ngược nội dung file log](https://drive.google.com/uc?export=view&id=11O64vVQwRtfEWNeAvcwkzlYCNHG5EOXt)
 
 -   `tac /var/log/syslog`: Hiển thị nội dung file **/var/log/syslog** từ
     cuối lên đầu.
 
 # Pattern Search
 
-![Một số câu lệnh tìm kiếm theo mẫu](img/task4_1.png){height="6cm"}
+![Một số câu lệnh tìm kiếm theo mẫu](https://drive.google.com/uc?export=view&id=1pmHbn7b1uvFH3SP2xZ-oCvY1ssWG6lSe)
 
-![Một số câu lệnh tìm kiếm theo mẫu](img/task4_2.png){height="6cm"}
+![Một số câu lệnh tìm kiếm theo mẫu](https://drive.google.com/uc?export=view&id=1p5Tj9h9sYIYhWVNZF8oWT-aR0flt5oTM)
 
-![Kiểm tra kết quả file errors.log](img/task4_3.png){#fig:enter-label
-width="0.6\\linewidth"}
+![Kiểm tra kết quả file errors.log](https://drive.google.com/uc?export=view&id=1Uhrit2EYiWGtrMM9-_kqwQpxbLzppkpj)
 
 -   `grep -i 'error' /var/log/syslog `: Tìm tất cả dòng chứa từ
     **error** trong file **/var/log/syslog**, trong đó -i cho phép không
@@ -71,10 +66,9 @@ width="0.6\\linewidth"}
 # Stream Redirection
 
 ![Một số câu lệnh điều hướng trong
-Linux](img/task5_1.png){#fig:enter-label width="0.75\\linewidth"}
+Linux](https://drive.google.com/uc?export=view&id=1Bk8cRDXKh01F1Ben38Tb1ZE0AGzRnoYq)
 
-![Xem kết quả](img/task5_2.png){#fig:enter-label
-width="0.75\\linewidth"}
+![Xem kết quả](https://drive.google.com/uc?export=view&id=1njkN0RdveFnAEIr_HwPOT98_V5SS1h5t)
 
 -   `ls /etc > etc_list.txt`: Liệt kê toàn bộ nội dung thư mục **etc**
     và ghi đè vào etc_list.txt (overwrite).
@@ -86,7 +80,7 @@ width="0.75\\linewidth"}
 
 # Text Processing
 
-![Một số câu lệnh xử lý văn bản](img/task6_1.png){height="6cm"}
+![Một số câu lệnh xử lý văn bản](img/task6_1.png)
 
 ![Một số câu lệnh xử lý văn bản](img/task6_2.png){height="6cm"}
 
