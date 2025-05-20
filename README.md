@@ -80,9 +80,9 @@ Linux](https://drive.google.com/uc?export=view&id=1Bk8cRDXKh01F1Ben38Tb1ZE0AGzRn
 
 # Text Processing
 
-![Một số câu lệnh xử lý văn bản](img/task6_1.png)
+![Một số câu lệnh xử lý văn bản](https://drive.google.com/uc?export=view&id=149dE7IxDX7YbzVYLTN8l0juvLk1Bq61w)
 
-![Một số câu lệnh xử lý văn bản](img/task6_2.png){height="6cm"}
+![Một số câu lệnh xử lý văn bản](https://drive.google.com/uc?export=view&id=1xyzlRxsz3T55n0HCi9AGswtJw_7ZdzTi)
 
 -   `echo -e "Alice:Admin\nBob:User\nCarol:Guest" > users.txt`: Lệnh
     echo dùng để in ra text đề bài yêu cầu ra màn hình, dùng \>
@@ -104,7 +104,7 @@ Linux](https://drive.google.com/uc?export=view&id=1Bk8cRDXKh01F1Ben38Tb1ZE0AGzRn
 # Cleanup Script
 
 ![Xóa, di chuyển, sao chép các file và thư
-mục](img/task7.png){#fig:enter-label width="0.75\\linewidth"}
+mục](https://drive.google.com/uc?export=view&id=1e5U81TkH2o1jrydovOc55DY9qaK5SqjG)
 
 -   `rm -r old_backup`: Xóa thư mục **old_backup**, trong đó -r cho phép
     xóa các file và thư mục con bên trong nó.
@@ -120,9 +120,9 @@ mục](img/task7.png){#fig:enter-label width="0.75\\linewidth"}
 
 # File Hunting
 
-![Một số câu lệnh tìm kiếm file](img/task8_1.png){height="6cm"}
+![Một số câu lệnh tìm kiếm file](https://drive.google.com/uc?export=view&id=13JkOG0chnkK5VRRBLOQvRDkTerxs3NHa)
 
-![Một số câu lệnh tìm kiếm file](img/task8_2.png){height="6cm"}
+![Một số câu lệnh tìm kiếm file](https://drive.google.com/uc?export=view&id=/11jvqEUUt2lkqXKf6lgomQCSyBhysae7h)
 
 -   `find /etc -type f -name "*.conf"`: Sử dụng kí tự wildcard \* để tìm
     tất cả file .conf trong /etc, trong đó -type f nghĩa là chỉ tìm
@@ -140,8 +140,7 @@ mục](img/task7.png){#fig:enter-label width="0.75\\linewidth"}
 
 # Joining Data
 
-![Kết hợp dữ liệu từ hai file](img/task9.png){#fig:enter-label
-width="0.75\\linewidth"}
+![Kết hợp dữ liệu từ hai file](https://drive.google.com/uc?export=view&id=1Xe21610ivQKZaz71bxEC2pQZliCRF5Ta)
 
 -   `echo -e "1 Alice\n2 Bob\n3 Carol" > names.txt` và
     `echo -e "1 Admin\n2 User\n3 Guest" > roles.txt`: Tạo 2 file
@@ -154,7 +153,7 @@ width="0.75\\linewidth"}
 # Line Numbering & Word Counts
 
 ![Đánh số dòng và đếm số dòng, số từ, số byte của
-file](img/task10.png){#fig:enter-label width="0.75\\linewidth"}
+file](https://drive.google.com/uc?export=view&id=1TDpYlN-u1dwaAg9ziRwowCTJueplVD-y)
 
 -   `nl users.txt`: Đánh số dòng cho mỗi dòng trong file **users.txt**.
 
