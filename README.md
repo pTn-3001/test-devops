@@ -1,7 +1,7 @@
 # System Investigation
 
 ![Hiển thị đường dẫn thư mục hiện tại đang đứng trong
-terminal](img/task1.png){#fig:enter-label width="0.75\\linewidth"}
+terminal](https://drive.google.com/file/d/1LofxNbe95GmEJGT89BTlmQrq_41XevjC/view?usp=sharing){#fig:enter-label width="0.75\\linewidth"}
 
 -   `pwd`: In ra đường dẫn thư mục hiện tại đang đứng trong terminal.
 
