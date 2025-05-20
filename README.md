@@ -1,7 +1,7 @@
 # System Investigation
 
 ![Hiển thị đường dẫn thư mục hiện tại đang đứng trong
-terminal](https://drive.google.com/uc?export=view&id=1LofxNbe95GmEJGT89BTlmQrq_41XevjC){#fig:enter-label width="0.75\\linewidth"}
+terminal](https://drive.google.com/uc?export=view&id=1LofxNbe95GmEJGT89BTlmQrq_41XevjC)
 
 -   `pwd`: In ra đường dẫn thư mục hiện tại đang đứng trong terminal.
 
