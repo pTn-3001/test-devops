@@ -31,7 +31,7 @@ Thầy Phan Quốc Kỳ
 ---
 
 ## 1. Create Project Groups and Users
-!(https://drive.google.com/uc?export=view&id=1SUDtfz68ySZAzfng7ipPSd7dnv7KEOJj)
+![](https://drive.google.com/uc?export=view&id=1SUDtfz68ySZAzfng7ipPSd7dnv7KEOJj)
 - `sudo groupadd developers`:  
   + Tạo group mới tên là `developers`.  
 - `sudo groupadd testers`:  
