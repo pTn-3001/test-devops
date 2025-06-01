@@ -43,6 +43,8 @@ Thầy Phan Quốc Kỳ
 > **Tương tự** thực hiện cho các user còn lại như `dev_junior`, `tester_lead`, `tester_junior`, `guest_user`.
 
 ### Kiểm tra group và user:
+![](https://drive.google.com/uc?export=view&id=1cPAn9jUyoNehgZ4yIvFt54FpkpjIliil)
+![](https://drive.google.com/uc?export=view&id=1W6ilqW3M0fx-NRFJVFmEDYyQ5kY_YVj3)
 - `tac /etc/group`: Kiểm tra group mới tạo.  
 - `tac /etc/passwd`: Kiểm tra user mới tạo.
 
@@ -52,7 +54,7 @@ Thầy Phan Quốc Kỳ
 ---
 
 ## 2. Assign Users to Groups
-
+![](https://drive.google.com/uc?export=view&id=1bzRhBsUI0JMANqjAs8s8JhcF3UIYkHaS)
 - `sudo usermod -aG developers dev_lead`: Thêm user `dev_lead` vào group `developers`  
 - `groups dev_lead`: Kiểm tra các group của user.  
 
@@ -62,7 +64,7 @@ Thầy Phan Quốc Kỳ
 ---
 
 ## 3. Set Up Project Directories
-
+![](https://drive.google.com/uc?export=view&id=1dRFNxSPWpG-B_pAt8Y4L6QlLG28a-T6W)
 - `sudo mkdir -p /projects/alpha`  
 - `sudo mkdir -p /projects/beta_reports`  
 - `sudo chown :developers /projects/alpha`  
@@ -75,7 +77,7 @@ Thầy Phan Quốc Kỳ
 ---
 
 ## 4. Set Up Directory Permissions
-
+![](https://drive.google.com/uc?export=view&id=1XZYA-Y4-1oJYBA7YZ-63Il-5lI6D5zUy)
 - `sudo chmod 770 /projects/alpha`  
   + Owner: `rwx`  
   + Group: `rwx`  
@@ -93,7 +95,7 @@ Thầy Phan Quốc Kỳ
 ---
 
 ## 5. Test Access to the Alpha Directory
-
+![](https://drive.google.com/uc?export=view&id=1ExXClZ_qhxi0oQhJzAqTTrJnZK_YkKeJ)
 - `sudo su - dev_junior`  
 - `cd /projects/alpha` ✅  
 - `touch dev_file.txt` ✅  
@@ -108,7 +110,7 @@ Thầy Phan Quốc Kỳ
 ---
 
 ## 6. Test Access to Beta Reports Directory
-
+![](https://drive.google.com/uc?export=view&id=1wOhR8az7fIIY8nBUlHcF4IqX5cvXyYyV)
 - `sudo su - tester_junior`  
 - `cd /projects/beta_reports` ✅  
 - `touch testfile.txt` ❌  
@@ -133,7 +135,7 @@ Thầy Phan Quốc Kỳ
 ---
 
 ## 8. Extension Challenge
-
+![](https://drive.google.com/uc?export=view&id=1Qr4zHUq5mBB9seFLNXLRK3lp88HNGiEw)
 - Thiết lập **Sticky Bit**:  
   + Gán quyền `+t` để chỉ cho phép **người tạo** được xóa file mình tạo ra trong thư mục chia sẻ.
 
